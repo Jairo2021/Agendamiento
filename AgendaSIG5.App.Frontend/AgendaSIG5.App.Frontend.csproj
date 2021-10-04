@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgendaSIG5.App.Persistencia\AgendaSIG5.App.Persistencia.csproj" />
+    <ProjectReference Include="..\AgendaSIG5.App.Dominio\AgendaSIG5.App.Dominio.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>

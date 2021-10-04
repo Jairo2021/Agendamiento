@@ -1,0 +1,9 @@
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\bin\Debug\netstandard2.0\AgendaSIG5.App.Dominio.deps.json
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\bin\Debug\netstandard2.0\AgendaSIG5.App.Dominio.dll
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\bin\Debug\netstandard2.0\AgendaSIG5.App.Dominio.pdb
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\obj\Debug\netstandard2.0\AgendaSIG5.App.Dominio.csprojAssemblyReference.cache
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\obj\Debug\netstandard2.0\AgendaSIG5.App.Dominio.AssemblyInfoInputs.cache
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\obj\Debug\netstandard2.0\AgendaSIG5.App.Dominio.AssemblyInfo.cs
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\obj\Debug\netstandard2.0\AgendaSIG5.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\obj\Debug\netstandard2.0\AgendaSIG5.App.Dominio.dll
+C:\Agendamiento\AgendaSIG5.App\AgendaSIG5.App.Dominio\obj\Debug\netstandard2.0\AgendaSIG5.App.Dominio.pdb

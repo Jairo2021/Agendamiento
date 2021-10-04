@@ -1,0 +1,33 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.Personas.Detalles1Model
+@{
+}
+<h1>Detalle de la Persona</h1>
+<table class="table table-striped">
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.persona.Nombre</td>
+    </tr>
+    <tr>
+        <th scope="col">Apellidos</th>
+        <td>@Model.persona.Apellidos</td>
+    </tr>
+    <tr>	
+        <th scope="col">Telefonos</th>
+        <td>@Model.persona.Telefonos</td>
+    </tr>	
+    <tr>	
+        <th scope="col">Correo Electronico</th>
+        <td>@Model.persona.ECorreo</td>
+    </tr>
+    <tr>	
+        <th scope="col">Eps</th>
+        <td>@Model.persona.Eps</td>
+    </tr>
+    <tr>
+        <th scope="col">Genero</th>
+        <td>@Model.persona.Genero</td>
+    </tr>
+
+</table>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
