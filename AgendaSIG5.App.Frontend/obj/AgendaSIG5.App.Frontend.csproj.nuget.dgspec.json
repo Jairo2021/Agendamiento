@@ -1,17 +1,69 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj": {}
+    "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.frontend\\AgendaSIG5.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj": {
+    "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj",
-        "projectName": "AgendaSIG5.App.Frontend",
-        "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
+        "projectName": "AgendaSIG5.App.Dominio",
+        "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\jairo\\.nuget\\packages\\",
-        "outputPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Frontend\\obj\\",
+        "outputPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jairo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.frontend\\AgendaSIG5.App.Frontend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.frontend\\AgendaSIG5.App.Frontend.csproj",
+        "projectName": "AgendaSIG5.App.Frontend",
+        "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.frontend\\AgendaSIG5.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\jairo\\.nuget\\packages\\",
+        "outputPath": "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jairo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,7 +78,14 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
+                "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj"
+              },
+              "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj": {
+                "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,6 +96,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,6 +133,84 @@
               "privateAssets": "none"
             },
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj",
+        "projectName": "AgendaSIG5.App.Persistencia",
+        "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\jairo\\.nuget\\packages\\",
+        "outputPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jairo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
+                "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },

@@ -1523,7 +1523,7 @@
       },
       "AgendaSIG5.App.Dominio/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/AgendaSIG5.App.Dominio.dll": {}
         },
@@ -5841,11 +5841,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Consola\\AgendaSIG5.App.Consola.csproj",
+      "projectUniqueName": "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.Consola\\AgendaSIG5.App.Consola.csproj",
       "projectName": "AgendaSIG5.App.Consola",
-      "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Consola\\AgendaSIG5.App.Consola.csproj",
+      "projectPath": "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.Consola\\AgendaSIG5.App.Consola.csproj",
       "packagesPath": "C:\\Users\\jairo\\.nuget\\packages\\",
-      "outputPath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Consola\\obj\\",
+      "outputPath": "C:\\Agendamiento\\AgendaSIG5.App\\agendasig5.app.Consola\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jairo\\AppData\\Roaming\\NuGet\\NuGet.Config",

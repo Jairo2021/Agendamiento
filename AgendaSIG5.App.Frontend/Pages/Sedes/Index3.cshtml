@@ -1,0 +1,26 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.Sedes.Index3Model
+@{
+}
+<h1>Listado de Sedes</h1>
+<a class="btn btn-primary" asp-page="./Crear3">Registrar Sede</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th colspan="2" scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sede in Model.sedes)
+        {
+            <tr>
+                <td>@sede.Id</td>
+                <td>@sede.Nombre</td>
+                <td><a class="btn btn-secondary" asp-page="./Detalles3" asp-route-id="@sede.Id">Detalle</a></td>
+                <td><a class="btn btn-secondary" asp-page="./Editar3" asp-route-id="@sede.Id">Editar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

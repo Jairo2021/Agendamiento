@@ -1,0 +1,15 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.Sedes.Crear3Model
+@using AgendaSIG5.App.Dominio
+@{
+}
+<h1>Registro Sede</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="sede.Nombre"></label>
+        <input asp-for="sede.Nombre" class="form-control">
+        <span asp-validation-for="sede.Nombre" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Sede</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index3">Volver</a>

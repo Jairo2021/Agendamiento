@@ -5,33 +5,35 @@ using AgendaSIG5.App.Persistencia;
 namespace AgendaSIG5.App.Consola
 {
     class Program
-    {
-        private static IRepositorioPaciente _repoPaciente=new RepositorioPaciente(new Persistencia.AppContext());
-        
+    {   
+        //private static IRepositorioPersona _repoPersona=new RepositorioPersona(new Persistencia.AppContext());   
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello patient, welcome to AgendaSIG5!!!!");
-            AddPaciente();
-            BuscarPaciente(1);
+            Console.WriteLine("Hello Jairo Ramirez, welcome to AgendaSIG5!!!!");
+            //AddPersona();
+            Console.WriteLine("Persona Adicionada!!!!");            
+            //BuscarPersona(1);
         }
-        private static void AddPaciente()
-        {
-            var paciente =new Paciente
-            {
-                Nombre="Jairo H",
-                Apellidos="Ramirez",
-                NumeroTelefono="3112234561",
-                Genero=Genero.Masculino,
-                Direccion="Calle 18 11-15",
-                Ciudad="Mosquera"
-            };
-            _repoPaciente.AddPaciente(paciente);
-        }
-        private static void BuscarPaciente(int idPaciente)
-        {
-            var paciente = _repoPaciente.GetPaciente(idPaciente);
-            Console.WriteLine("Nombre: "+paciente.Nombre+" "+paciente.Apellidos+"  Género: "+paciente.Genero);
-        }  
 
+        /*private static void AddPersona()
+        {
+            var persona =new Persona
+            {
+                Nombre="Carlos",
+                Apellidos="Ramírez M",
+                Telefonos="3112104330",
+                Genero=Genero.Masculino,
+                Direccion="Calle 12a # 1B Este-80",
+                ECorreo="jairohramirezm@hotmail.com"
+            };
+            _repoPersona.AddPersona(persona);
+        }*/
+
+        /*private static void BuscarPersona(int idPersona)
+        {
+            var persona = _repoPersona.GetPersona(idPersona);
+            Console.WriteLine("Nombre: "+persona.Nombre+" "+persona.Apellidos+"  Género: "+persona.Genero);
+        }*/        
     }
 }

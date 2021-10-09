@@ -1,0 +1,15 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.Ciudades.Crear2Model
+@using AgendaSIG5.App.Dominio
+@{
+}
+<h1>Registro Ciudad</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="ciudad.NombreCiudad"></label>
+        <input asp-for="ciudad.NombreCiudad" class="form-control">
+        <span asp-validation-for="ciudad.NombreCiudad" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear Ciudad</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index2">Volver</a>
