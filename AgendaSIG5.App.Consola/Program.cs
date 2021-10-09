@@ -6,7 +6,7 @@ namespace AgendaSIG5.App.Consola
 {
     class Program
     {   
-        private static IRepositorioPersona _repoPersona=new RepositorioPersona(new Persistencia.AppContext());   
+        private static IRepositorioPersona _repoPersona=new RepositorioPersona();   
 
         static void Main(string[] args)
         {

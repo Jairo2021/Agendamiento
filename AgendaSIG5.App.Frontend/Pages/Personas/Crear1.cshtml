@@ -23,12 +23,28 @@
         <input asp-for="persona.ECorreo" class="form-control">
     </div>	
     <div class="form-group">
+        <label asp-for="persona.Direccion"></label>
+        <input asp-for="persona.Direccion" class="form-control">
+    </div>
+    <div class="form-group">
         <label asp-for="persona.Genero"></label>
         <select asp-for="persona.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
     </div>
     <div class="form-group">
         <label asp-for="persona.Eps"></label>
         <input asp-for="persona.Eps" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="persona.Especialidad"></label>
+        <input asp-for="persona.Especialidad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="persona.RegistroMedico"></label>
+        <input asp-for="persona.RegistroMedico" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="persona.FK_Id_Sede">Sede</label>
+        <input asp-for="persona.FK_Id_Sede" class="form-control">
     </div>
     <button type="submit" class="btn btn-primary">Crear Persona</button>
 </form>

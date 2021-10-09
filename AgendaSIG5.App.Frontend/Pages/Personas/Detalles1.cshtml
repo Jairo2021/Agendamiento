@@ -20,14 +20,25 @@
         <th scope="col">Correo Electronico</th>
         <td>@Model.persona.ECorreo</td>
     </tr>
-    <tr>	
-        <th scope="col">Eps</th>
-        <td>@Model.persona.Eps</td>
-    </tr>
     <tr>
         <th scope="col">Genero</th>
         <td>@Model.persona.Genero</td>
     </tr>
-
+    <tr>	
+        <th scope="col">Eps</th>
+        <td>@Model.persona.Eps</td>
+    </tr>	
+    <tr>	
+        <th scope="col">Especialidad</th>
+        <td>@Model.persona.Especialidad</td>
+    </tr>	
+    <tr>	
+        <th scope="col">Registro Medico</th>
+        <td>@Model.persona.RegistroMedico</td>
+    </tr>
+    <tr>	
+        <th scope="col">Sede</th>
+        <td>@Model.persona.FK_Id_Sede</td>
+    </tr>	
 </table>
 <a class="btn btn-secondary" asp-page="./Index1">Volver</a>

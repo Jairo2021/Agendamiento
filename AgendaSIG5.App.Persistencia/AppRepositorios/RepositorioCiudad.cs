@@ -12,18 +12,18 @@ namespace AgendaSIG5.App.Persistencia
 
           Ciudad IRepositorioCiudad.AddCiudad(Ciudad ciudad)
           {
-            var CiudadAdicionado= _appContext.Ciudades.Add(ciudad);
+            var ciudadAdicionado= _appContext.Ciudades.Add(ciudad);
             _appContext.SaveChanges(); //Se deben guardar los cambios
-            return CiudadAdicionado.Entity;
+            return ciudadAdicionado.Entity;
           }
 
           void IRepositorioCiudad.DeleteCiudad(int idCiudad)
           {
-            var CiudadEncontrado= _appContext.Ciudades.FirstOrDefault(p =>p.Id==idCiudad);//p es el primero que encuentra. Recorre todos los elementos de la tabla
+            var ciudadEncontrado= _appContext.Ciudades.FirstOrDefault(p =>p.Id==idCiudad);//p es el primero que encuentra. Recorre todos los elementos de la tabla
             // var ciudadEncontrado = _appContext.Ciudades.Find(idCiudad);
-            if(CiudadEncontrado==null)
+            if(ciudadEncontrado==null)
             return;
-            _appContext.Ciudades.Remove(CiudadEncontrado);
+            _appContext.Ciudades.Remove(ciudadEncontrado);
             _appContext.SaveChanges();//Se deben guardar los cambios
           }
 

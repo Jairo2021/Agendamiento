@@ -12,18 +12,18 @@ namespace AgendaSIG5.App.Persistencia
 
           Persona IRepositorioPersona.AddPersona(Persona persona)
           {
-            var PersonaAdicionado= _appContext.Personas.Add(persona);
+            var personaAdicionado= _appContext.Personas.Add(persona);
             _appContext.SaveChanges(); //Se deben guardar los cambios
-            return PersonaAdicionado.Entity;
+            return personaAdicionado.Entity;
           }
 
           void IRepositorioPersona.DeletePersona(int idPersona)
           {
-            var PersonaEncontrado= _appContext.Personas.FirstOrDefault(p =>p.Id==idPersona);//p es el primero que encuentra. Recorre todos los elementos de la tabla
+            var personaEncontrado= _appContext.Personas.FirstOrDefault(p =>p.Id==idPersona);//p es el primero que encuentra. Recorre todos los elementos de la tabla
             // var personaEncontrado = _appContext.Personas.Find(idPersona);
-            if(PersonaEncontrado==null)
+            if(personaEncontrado==null)
             return;
-            _appContext.Personas.Remove(PersonaEncontrado);
+            _appContext.Personas.Remove(personaEncontrado);
             _appContext.SaveChanges();//Se deben guardar los cambios
           }
 
@@ -33,7 +33,7 @@ namespace AgendaSIG5.App.Persistencia
              
           }
 
-        Persona IRepositorioPersona.GetPersona  (int idPersona)
+        Persona IRepositorioPersona.GetPersona (int idPersona)
           {
            return _appContext.Personas.FirstOrDefault(p =>p.Id==idPersona);//retorna lo que encuentra
            // return _appContext.Personas.Find(idPersona);           
