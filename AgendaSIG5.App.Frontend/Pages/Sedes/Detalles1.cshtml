@@ -1,0 +1,14 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.Sedes.Detalles1Model
+@{
+}
+<h1>Detalle de la Sede</h1>
+<table class="table table-striped">
+    <tr>
+        <th scope="col">Ciudad</th>
+        <td>@Model.sede.FK_Id_Ciudad</td>
+        <th scope="col">Nombre Sede</th>
+        <td>@Model.sede.Nombre</td>
+    </tr>
+</table>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>

@@ -27,6 +27,8 @@ namespace AgendaSIG5.App.Frontend
             services.AddRazorPages();
             services.AddSingleton<IRepositorioPersona, RepositorioPersona>();      
             services.AddSingleton<IRepositorioCiudad, RepositorioCiudad>();                            
+            services.AddSingleton<IRepositorioSede, RepositorioSede>();
+            services.AddSingleton<IRepositorioAgenda, RepositorioAgenda>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
