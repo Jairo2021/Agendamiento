@@ -10,6 +10,10 @@
         <input asp-for="sede.Id" class="form-control" readonly>
     </div>
     <div class="form-group">
+        <label asp-for="sede.FK_Id_Ciudad">Ciudad</label>
+        <input asp-for="sede.FK_Id_Ciudad" class="form-control">
+    </div>
+    <div class="form-group">
         <label asp-for="sede.Nombre"></label>
         <input asp-for="sede.Nombre" class="form-control">
         <span asp-validation-for="sede.Nombre" class="text-danger"></span>
@@ -17,4 +21,3 @@
     <button type="submit" class="btn btn-primary">Actualizar Sede</button>
 </form>
 <a class="btn btn-secondary" asp-page="./Index3">Volver</a>
-

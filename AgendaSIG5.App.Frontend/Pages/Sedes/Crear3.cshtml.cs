@@ -11,13 +11,19 @@ namespace AgendaSIG5.App.Frontend.Pages.Sedes
 {
     public class Crear3Model : PageModel
     {
+		// Incluir Ciudad para costruir la lista desplegable
+        private readonly IRepositorioCiudad _repoCiudad;
+		
+		public IEnumerable<Ciudad> ciudades{get; set;}
+
         public Sede sede {get; set;}
 
         private readonly IRepositorioSede _repoSede;
         
-        public Crear3Model(IRepositorioSede repoSede)
+        public Crear3Model(IRepositorioSede repoSede, IRepositorioCiudad repoCiudad)
         {
             _repoSede = repoSede;
+			_repoCiudad = repoCiudad;			
         }
 
         public IActionResult OnPost(Sede sede)
@@ -35,6 +41,7 @@ namespace AgendaSIG5.App.Frontend.Pages.Sedes
         public void OnGet()
         {
             sede= new Sede();
-        }        
+            ciudades =_repoCiudad.GetAllCiudades();            		
+        }      
     }
 }

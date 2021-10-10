@@ -8,7 +8,8 @@
     <thead>
         <tr>
             <th scope="col">Id</th>
-            <th scope="col">Nombre</th>
+            <th scope="col">Ciudad</th>			
+            <th scope="col">Nombre Sede</th>
             <th colspan="2" scope="col">Acciones</th>
         </tr>
     </thead>
@@ -17,6 +18,7 @@
         {
             <tr>
                 <td>@sede.Id</td>
+                <td>@sede.FK_Id_Ciudad</td>				
                 <td>@sede.Nombre</td>
                 <td><a class="btn btn-secondary" asp-page="./Detalles3" asp-route-id="@sede.Id">Detalle</a></td>
                 <td><a class="btn btn-secondary" asp-page="./Editar3" asp-route-id="@sede.Id">Editar</a></td>
