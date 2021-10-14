@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ru0fhp0e4rtlttFimUITIxQiBxLxxS+OXYurG1KYXxvxymIZfVgc7F7qWClWPXDS2UXSQj0n2TaX+FgfYhsAag==",
+  "dgSpecHash": "XCTkyGYBdMDfzQh15rlZ/+5RWLFy3MD8arH/tPZRXInCbFbG7bNltyg4iy6xSQrRUytxZrB9VmtciWIctbjGAA==",
   "success": true,
   "projectFilePath": "C:\\Agendamiento\\AgendaSIG5.App\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jairo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

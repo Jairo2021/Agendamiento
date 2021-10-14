@@ -33,6 +33,10 @@ namespace AgendaSIG5.App.Frontend.Pages.Ciudades
         }
         public IActionResult OnPost(Ciudad ciudad)
         {
+            if(!ModelState.IsValid)
+            {
+                return Page();
+            }
             _repoCiudad.UpdateCiudad(ciudad);
             return RedirectToPage("Index2"); 
         }
