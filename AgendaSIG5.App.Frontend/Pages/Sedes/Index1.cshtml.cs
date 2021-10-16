@@ -11,18 +11,39 @@ namespace AgendaSIG5.App.Frontend.Pages.Sedes
 {
     public class Index1Model : PageModel
     {
+		// Incluir Ciudad para costruir la lista desplegable
+        private readonly IRepositorioCiudad _repoCiudad;
+
         private readonly IRepositorioSede _repoSede;
 
         public IEnumerable<Sede> sedes {get; set;}
 
-        public Index1Model(IRepositorioSede repoSede)
+        public Ciudad ciudad {get; set;}
+
+        public String NombreCiudad {get; set;}
+
+        public Index1Model(IRepositorioSede repoSede, IRepositorioCiudad repoCiudad)
         {
             _repoSede = repoSede;
+			_repoCiudad = repoCiudad;	            
         }
 
         public void OnGet()
         {
-            sedes =_repoSede.GetAllSedes();            
+            sedes =_repoSede.GetAllSedes();          
         }
+
+        public void GetCiudad (int idCiudad)
+        {
+            ciudad = _repoCiudad.GetCiudad(idCiudad);
+            if (ciudad == null)
+            {
+                NombreCiudad = "Ciudad NO Registrada";
+
+            } else 
+            {
+                NombreCiudad = ciudad.NombreCiudad;
+            }
+        }        
     }
 }

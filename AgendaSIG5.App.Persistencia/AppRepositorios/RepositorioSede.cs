@@ -30,7 +30,6 @@ namespace AgendaSIG5.App.Persistencia
           IEnumerable <Sede> IRepositorioSede.GetAllSedes  ()
           {
             return _appContext.Sedes;
-             
           }
 
         Sede IRepositorioSede.GetSede  (int idSede)
@@ -51,7 +50,7 @@ namespace AgendaSIG5.App.Persistencia
                 _appContext.SaveChanges();        
            }
              return sedeEncontrado; //retorna el Sede encontrado           
-          }  
+          }           
      }
 }
 // implementa la interfaz

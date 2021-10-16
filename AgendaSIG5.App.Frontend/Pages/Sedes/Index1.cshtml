@@ -18,7 +18,12 @@
         {
             <tr>
                 <td>@sede.Id</td>
-                <td>@sede.FK_Id_Ciudad</td>				
+                <td>
+                     @{
+                         Model.GetCiudad(sede.FK_Id_Ciudad);
+                     }
+                     @Model.NombreCiudad
+                </td>				
                 <td>@sede.Nombre</td>
                 <td><a class="btn btn-secondary" asp-page="./Detalles1" asp-route-id="@sede.Id">Detalle</a></td>
                 <td><a class="btn btn-secondary" asp-page="./Editar1" asp-route-id="@sede.Id">Editar</a></td>

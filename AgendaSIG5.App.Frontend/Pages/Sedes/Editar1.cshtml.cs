@@ -11,17 +11,23 @@ namespace AgendaSIG5.App.Frontend.Pages.Sedes
 {
     public class Editar1Model : PageModel
     {
+		// Incluir Ciudad para costruir la lista desplegable
+        private readonly IRepositorioCiudad _repoCiudad;
+		
+		public IEnumerable<Ciudad> ciudades{get; set;}        
         public Sede sede {get; set;}
 
         private readonly IRepositorioSede _repoSede;
         
-        public Editar1Model(IRepositorioSede repoSede)
+        public Editar1Model(IRepositorioSede repoSede, IRepositorioCiudad repoCiudad)
         {
             _repoSede= repoSede;
+			_repoCiudad = repoCiudad;	            
         }
 
         public IActionResult OnGet(int id)
         {
+            ciudades =_repoCiudad.GetAllCiudades();
             sede=_repoSede.GetSede(id);
             if (sede == null)
             {

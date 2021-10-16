@@ -11,7 +11,7 @@ namespace AgendaSIG5.App.Persistencia
         Sede AddSede(Sede sede);
         Sede UpdateSede(Sede sede);
         void DeleteSede(int idSede);
-        Sede GetSede(int idSede); 
+        Sede GetSede(int idSede);      
     }
 }
 //Interface: Conjunto de métodos-encabezad

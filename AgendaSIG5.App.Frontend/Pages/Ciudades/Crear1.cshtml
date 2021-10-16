@@ -7,7 +7,7 @@
 <form method="post">
     <div class="form-group">
         <label asp-for="ciudad.NombreCiudad"></label>
-        <input asp-for="ciudad.NombreCiudad" class="form-control">
+        <input asp-for="ciudad.NombreCiudad" class="form-control" required>
         <span asp-validation-for="ciudad.NombreCiudad" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Crear Ciudad</button>

@@ -11,24 +11,24 @@
     </div>
     <div class="form-group">
         <label asp-for="persona.Nombre"></label>
-        <input asp-for="persona.Nombre" class="form-control">
+        <input asp-for="persona.Nombre" class="form-control" required>
         <span asp-validation-for="persona.Nombre" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="persona.Apellidos"></label>
-        <input asp-for="persona.Apellidos" class="form-control">
+        <input asp-for="persona.Apellidos" class="form-control" required>
     </div>
     <div class="form-group">
         <label asp-for="persona.Telefonos"></label>
-        <input asp-for="persona.Telefonos" class="form-control">
+        <input asp-for="persona.Telefonos" class="form-control" required>
     </div>
     <div class="form-group">
         <label asp-for="persona.ECorreo"></label>
-        <input asp-for="persona.ECorreo" class="form-control">
+        <input asp-for="persona.ECorreo" class="form-control" required>
     </div>	
     <div class="form-group">
         <label asp-for="persona.Direccion"></label>
-        <input asp-for="persona.Direccion" class="form-control">
+        <input asp-for="persona.Direccion" class="form-control" required>
     </div>	
     <div class="form-group">
         <label asp-for="persona.Genero"></label>
@@ -36,7 +36,7 @@
     </div>
     <div class="form-group">
         <label asp-for="persona.Eps"></label>
-        <input asp-for="persona.Eps" class="form-control">
+        <input asp-for="persona.Eps" class="form-control" required>
     </div>
     <div class="form-group">
         <label asp-for="persona.Especialidad"></label>
@@ -48,7 +48,7 @@
     </div>
     <div class="form-group">
         <label asp-for="persona.FK_Id_Sede">Sede</label>
-        <input asp-for="persona.FK_Id_Sede" class="form-control">
+        <input asp-for="persona.FK_Id_Sede" class="form-control" required>
     </div>	
     <button type="submit" class="btn btn-primary">Actualizar Persona</button>
 </form>
