@@ -38,7 +38,13 @@
     </tr>
     <tr>	
         <th scope="col">Sede</th>
-        <td>@Model.persona.FK_Id_Sede</td>
+        <td>
+            @{
+                Model.GetSede(Model.persona.FK_Id_Sede);
+                Model.GetCiudad(Model.sede.FK_Id_Ciudad);
+            }    
+            @Model.NombreCiudad - @Model.NombreSede
+        </td>
     </tr>	
 </table>
 <a class="btn btn-secondary" asp-page="./Index1">Volver</a>
