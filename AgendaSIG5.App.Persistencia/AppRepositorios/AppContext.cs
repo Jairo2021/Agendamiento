@@ -13,8 +13,11 @@ namespace AgendaSIG5.App.Persistencia
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AgendaSIG5Data");
+
+                optionsBuilder.UseSqlServer("Server=tcp:agendamientosig5.database.windows.net,1433; Database=AgendaSIG5Data; User ID=AgendaSIG5; Password=Agendamiento5; Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+
+  
+                //optionsBuilder .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = AgendaSIG5Data");
             }
         }    
     }

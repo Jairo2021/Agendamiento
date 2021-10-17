@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj": {}
+    "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
+    "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
         "projectName": "AgendaSIG5.App.Dominio",
-        "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\CiaTriana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\JHON RUIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CiaTriana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JHON RUIZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -54,17 +54,17 @@
         }
       }
     },
-    "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj": {
+    "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj",
         "projectName": "AgendaSIG5.App.Frontend",
-        "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\CiaTriana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Frontend\\AgendaSIG5.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\JHON RUIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CiaTriana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JHON RUIZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -75,11 +75,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj"
+              "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj"
               },
-              "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj"
+              "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj"
               }
             }
           }
@@ -92,6 +92,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -114,17 +136,17 @@
         }
       }
     },
-    "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj": {
+    "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj",
         "projectName": "AgendaSIG5.App.Persistencia",
-        "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\CiaTriana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Persistencia\\AgendaSIG5.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\JHON RUIZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CiaTriana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\JHON RUIZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -135,8 +157,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj"
+              "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj"
               }
             }
           }
@@ -152,13 +174,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -168,7 +190,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.10, )"
             }
           },
           "imports": [

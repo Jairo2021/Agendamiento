@@ -8,19 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\CiaTriana\\.nuget\\packages\\": {}
+    "C:\\Users\\JHON RUIZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
       "projectName": "AgendaSIG5.App.Dominio",
-      "projectPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\CiaTriana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CiaTriana\\Downloads\\CiudadanoDigital\\MisionTic2022\\DesarrolloSoftware\\Agendamiento-main\\AgendaSIG5.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\AgendaSIG5.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\JHON RUIZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JHON RUIZ\\Documents\\GitHub\\Agendamiento\\AgendaSIG5.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CiaTriana\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\JHON RUIZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"

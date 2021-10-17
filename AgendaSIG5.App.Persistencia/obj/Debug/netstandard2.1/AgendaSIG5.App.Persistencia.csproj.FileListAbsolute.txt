@@ -22,3 +22,15 @@ C:\Users\CiaTriana\Downloads\CiudadanoDigital\MisionTic2022\DesarrolloSoftware\A
 C:\Users\CiaTriana\Downloads\CiudadanoDigital\MisionTic2022\DesarrolloSoftware\Agendamiento-main\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.csproj.CopyComplete
 C:\Users\CiaTriana\Downloads\CiudadanoDigital\MisionTic2022\DesarrolloSoftware\Agendamiento-main\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.dll
 C:\Users\CiaTriana\Downloads\CiudadanoDigital\MisionTic2022\DesarrolloSoftware\Agendamiento-main\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.pdb
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\bin\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.deps.json
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\bin\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.dll
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\bin\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.pdb
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\bin\Debug\netstandard2.1\AgendaSIG5.App.Dominio.dll
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\bin\Debug\netstandard2.1\AgendaSIG5.App.Dominio.pdb
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.AssemblyInfo.cs
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.csproj.CopyComplete
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.dll
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Persistencia\obj\Debug\netstandard2.1\AgendaSIG5.App.Persistencia.pdb

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/877126c6-43a7-4636-b03d-79cd0fcd626e/resourceGroups/MisionTIC2022/providers/Microsoft.Web/sites/grupo5",
+    "appService.deploySubpath": "AgendaSIG5.App.Frontend\\publish"
+}

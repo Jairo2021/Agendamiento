@@ -1,0 +1,9 @@
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\bin\Release\netstandard2.1\AgendaSIG5.App.Dominio.deps.json
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\bin\Release\netstandard2.1\AgendaSIG5.App.Dominio.dll
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\bin\Release\netstandard2.1\AgendaSIG5.App.Dominio.pdb
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\obj\Release\netstandard2.1\AgendaSIG5.App.Dominio.csprojAssemblyReference.cache
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\obj\Release\netstandard2.1\AgendaSIG5.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\obj\Release\netstandard2.1\AgendaSIG5.App.Dominio.AssemblyInfo.cs
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\obj\Release\netstandard2.1\AgendaSIG5.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\obj\Release\netstandard2.1\AgendaSIG5.App.Dominio.dll
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Dominio\obj\Release\netstandard2.1\AgendaSIG5.App.Dominio.pdb
