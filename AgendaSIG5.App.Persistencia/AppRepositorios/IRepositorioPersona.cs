@@ -12,6 +12,8 @@ namespace AgendaSIG5.App.Persistencia
         Persona UpdatePersona(Persona persona);
         void DeletePersona(int idPersona);
         Persona GetPersona(int idPersona); 
+        IEnumerable<Persona> GetAllPacientes();        
+        IEnumerable<Persona> GetAllMedicos();  
     }
 }
 //Interface: Conjunto de métodos-encabezad

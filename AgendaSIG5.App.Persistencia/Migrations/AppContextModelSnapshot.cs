@@ -16,7 +16,7 @@ namespace AgendaSIG5.App.Persistencia.Migrations
             modelBuilder
                 .UseIdentityColumns()
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("ProductVersion", "5.0.10");
 
             modelBuilder.Entity("AgendaSIG5.App.Dominio.Agenda", b =>
                 {

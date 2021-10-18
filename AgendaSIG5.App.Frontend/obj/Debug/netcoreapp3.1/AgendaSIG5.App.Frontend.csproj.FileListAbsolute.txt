@@ -186,3 +186,12 @@ C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\obj\Deb
 C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\obj\Debug\netcoreapp3.1\AgendaSIG5.App.Frontend.genruntimeconfig.cache
 C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\Humanizer.dll
 C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\publish\web.config
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\publish\AgendaSIG5.App.Frontend.deps.json
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\publish\AgendaSIG5.App.Frontend.runtimeconfig.json
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\bin\Debug\netcoreapp3.1\publish\appsettings.json
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\AgendaCitas\Crear1.cshtml.g.cs
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\AgendaCitas\Detalles1.cshtml.g.cs
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\AgendaCitas\Editar1.cshtml.g.cs
+C:\Users\JHON RUIZ\Documents\GitHub\Agendamiento\AgendaSIG5.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\AgendaCitas\Index1.cshtml.g.cs

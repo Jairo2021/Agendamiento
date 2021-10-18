@@ -59,6 +59,20 @@ namespace AgendaSIG5.App.Persistencia
            }
              return personaEncontrado; //retorna el Persona encontrado           
           }
+
+        public IEnumerable<Persona> GetAllPacientes()
+        {
+            return _appContext.Personas
+                        .Where(p => p.Especialidad == null)
+                        .ToList();            
+        } 
+
+        public IEnumerable<Persona> GetAllMedicos()
+        {
+            return _appContext.Personas
+                        .Where(p => p.Especialidad.Length > 0)
+                        .ToList();
+        }
      }
 }
 // implementa la interfaz

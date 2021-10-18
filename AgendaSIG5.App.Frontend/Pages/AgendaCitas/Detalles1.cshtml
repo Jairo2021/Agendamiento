@@ -1,0 +1,52 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.AgendaCitas.Detalles1Model
+@{
+}
+<h1>Detalle de la Cita Medica</h1>
+<table class="table table-striped">
+    <tr>
+        <th scope="col">Fecha Cita</th>
+        <td>@Model.agenda.FechaCita</td>
+    </tr>
+    <tr>
+        <th scope="col">Hora Cita</th>
+        <td>@Model.agenda.HoraCita</td>
+    </tr>
+    <tr>	
+        <th scope="col">Sede</th>
+        <td>
+            @{
+                Model.GetSede(Model.agenda.FK_Id_Sede);
+                Model.GetCiudad(Model.sede.FK_Id_Ciudad);
+            }    
+            @Model.NombreCiudad - @Model.NombreSede  
+        </td>
+    </tr>	
+    <tr>	
+        <th scope="col">Nombre Paciente</th>
+        <td>
+            @{
+                var paciente = Model.GetPersona(Model.agenda.FK_Id_Paciente);
+            }    
+            @paciente.Nombre @paciente.Apellidos    
+        </td>
+    </tr>
+    <tr>
+        <th scope="col">Nombre Medico</th>
+        <td>
+            @{
+                var medico = Model.GetPersona(@Model.agenda.FK_Id_Medico);
+            }    
+            @medico.Nombre @medico.Apellidos 
+        </td>
+    </tr>
+    <tr>	
+        <th scope="col">Especialidad</th>
+        <td>@medico.Especialidad</td>
+    </tr>	
+    <tr>	
+        <th scope="col">Detalles Consulta</th>
+        <td>@Model.agenda.Notas</td>
+    </tr>
+</table>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>

@@ -1,0 +1,54 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.AgendaCitas.Index1Model
+@{
+}
+<h1>Listado de Citas Médicas</h1>
+<a class="btn btn-primary" asp-page="./Crear1">Registrar Cita Médica</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Fecha</th>	
+			<th scope="col">Hora</th>
+			<th scope="col">Sede</th>			
+            <th scope="col">Nombre Paciente</th>
+            <th scope="col">Nombre Médico</th>
+            <th scope="col">Especilidad</th>
+            <th scope="col">Detalles Consulta</th>
+            <th colspan="2" scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var agenda in Model.agendaCitas)
+        {
+            <tr>
+                <td>@agenda.Id</td>
+                <td>@agenda.FechaCita</td>
+                <td>@agenda.HoraCita</td>
+                <td>
+                    @{
+                        Model.GetSede(agenda.FK_Id_Sede);
+                        Model.GetCiudad(Model.sede.FK_Id_Ciudad);
+                    }    
+                    @Model.NombreCiudad - @Model.NombreSede                
+                </td>
+                <td>
+                    @{
+                        var paciente = Model.GetPersona(agenda.FK_Id_Paciente);
+                    }    
+                    @paciente.Nombre @paciente.Apellidos               
+                </td>				
+                <td>
+                    @{
+                        var medico = Model.GetPersona(@agenda.FK_Id_Medico);
+                    }    
+                    @medico.Nombre @medico.Apellidos 
+                </td>
+				<td>@medico.Especialidad</td>
+                <td>@agenda.Notas</td>
+                <td><a class="btn btn-secondary" asp-page="./Detalles1" asp-route-id="@agenda.Id">Detalle</a></td>
+                <td><a class="btn btn-secondary" asp-page="./Editar1" asp-route-id="@agenda.Id">Editar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

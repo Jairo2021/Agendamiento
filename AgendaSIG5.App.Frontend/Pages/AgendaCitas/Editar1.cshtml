@@ -1,0 +1,70 @@
+﻿@page
+@model AgendaSIG5.App.Frontend.Pages.AgendaCitas.Editar1Model
+@using AgendaSIG5.App.Dominio
+@{
+}
+<h1>Actualizar Cita Médica</h1>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="agenda.Id"></label>
+        <input asp-for="agenda.Id" class="form-control" readonly>
+    </div>
+    <div class="form-group">
+        <label asp-for="agenda.FechaCita">Fecha Cita</label>
+        <input type="date" asp-for="agenda.FechaCita" class="form-control" required>
+        <span asp-validation-for="agenda.FechaCita" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="agenda.HoraCita">Hora Cita</label>
+        <select asp-for="agenda.HoraCita" class="form-control" required>
+			<option value="08:00 am">08:00 am</option>
+			<option value="08:30 am">08:30 am</option>
+			<option value="09:00 am">09:00 am</option>
+			<option value="09:30 am">09:30 am</option>
+			<option value="10:00 am">10:00 am</option>
+			<option value="10:30 am">10:30 am</option>
+			<option value="11:00 am">11:00 am</option>
+			<option value="11:30 am">11:30 am</option>
+			<option value="12:00 pm">12:00 pm</option>
+			<option value="02:00 pm">02:00 pm</option>
+			<option value="02:30 pm">02:30 pm</option>
+			<option value="03:00 pm">03:00 pm</option>
+			<option value="03:30 pm">03:30 pm</option>
+		</select>		
+    </div>
+    <div class="form-group">
+        <label asp-for="agenda.FK_Id_Sede">Sede</label>
+        <select asp-for="agenda.FK_Id_Sede" class="form-control" required>
+        @foreach (var sede in Model.sedes)
+        {
+            Model.GetCiudad(sede.FK_Id_Ciudad);
+            
+			<option value="@sede.Id">@Model.NombreCiudad - @sede.Nombre</option>
+        }
+		</select>
+    </div>
+    <div class="form-group">
+        <label asp-for="agenda.FK_Id_Paciente">Nombre Paciente</label>
+        <select asp-for="agenda.FK_Id_Paciente" class="form-control" required>
+        @foreach (var paciente in Model.pacientes)
+        {
+			<option value="@paciente.Id">@paciente.Nombre @paciente.Apellidos</option>
+        }
+		</select>
+    </div>	
+    <div class="form-group">
+        <label asp-for="agenda.FK_Id_Medico">Nombre Medico</label>
+        <select asp-for="agenda.FK_Id_Medico" class="form-control" required>
+        @foreach (var medico in Model.medicos)
+        {
+			<option value="@medico.Id">@medico.Nombre @medico.Apellidos - @medico.Especialidad</option>
+        }
+		</select>
+    </div>
+    <div class="form-group">
+        <label asp-for="agenda.Notas">Detalles Consulta</label>
+        <input asp-for="agenda.Notas" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Actualizar Cita Médica</button>
+</form>
+<a class="btn btn-secondary" asp-page="./Index1">Volver</a>
